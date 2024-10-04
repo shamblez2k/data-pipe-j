@@ -1,4 +1,4 @@
 DB_HOST: data-pipe-j:us-central1:dw-pipeline-test-j
-DB_NAME: postgres
+DB_NAME: dw-pipeline-test-j
 DB_USER: postgres@data-pipe-j.iam.gserviceaccount.com
 ENV: dev
