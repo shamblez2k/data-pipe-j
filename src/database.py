@@ -16,7 +16,7 @@ if ENV == "local":
     DB_PASSWORD = os.environ.get("DB_PASSWORD","")
     DB_HOST = os.environ.get("DB_HOST","data-pipe-j:us-central1:dw-pipeline-test-j")
     DB_PORT = os.environ.get("DB_PORT", "5432")
-    DB_NAME = os.environ.get("DB_NAME", "postgres")
+    DB_NAME = os.environ.get("DB_NAME", "dw-pipeline-test-j")
 else:
     db_creds = secret.get_secret("dw-pipeline-test-j", "db-credentials")
 
