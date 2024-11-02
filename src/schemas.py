@@ -11,3 +11,6 @@ class PatientBase(BaseModel):
     address: str
     dob: datetime
     state: str
+
+class PatientCreate(PatientBase):
+    pass

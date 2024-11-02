@@ -13,7 +13,7 @@ ENV = os.environ.get("ENV", "cloud")
 
 if ENV == "local":
     DB_USER = os.environ.get("DB_USER", "postgres")
-    DB_PASSWORD = os.environ.get("DB_PASSWORD","")
+    DB_PASSWORD = os.environ.get("DB_PASSWORD","password")
     DB_HOST = os.environ.get("DB_HOST","data-pipe-j:us-central1:dw-pipeline-test-j")
     DB_PORT = os.environ.get("DB_PORT", "5432")
     DB_NAME = os.environ.get("DB_NAME", "dw-pipeline-test-j")
