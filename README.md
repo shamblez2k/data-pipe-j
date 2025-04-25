@@ -1,4 +1,4 @@
-#Update: This app does not work anymore because my GCP account trial has run out, and I refuse to pay for it just to keep this side project running :p
+# Update: This app does not work anymore because my GCP account trial has run out, and I refuse to pay for it just to keep this side project running :p
 
 # db-updater
 
