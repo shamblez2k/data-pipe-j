@@ -1,6 +1,8 @@
+#Update: This app does not work anymore because my GCP account trial has run out, and I refuse to pay for it just to keep this side project running :p
+
 # db-updater
 
-helloworld for db-updater app
+db-updater app
 
 # Spin up locally
 
